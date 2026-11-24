@@ -1,0 +1,49 @@
+[
+  {
+    "id": "S01",
+    "role": "paper",
+    "title": "EGE-UNet 原论文的方法与 ISIC2017 结果",
+    "keywords": [
+      "EGE-UNet",
+      "ISIC2017",
+      "轻量分割"
+    ],
+    "origin": "https://arxiv.org/html/2307.08473v1#S3",
+    "file": "paper.json"
+  },
+  {
+    "id": "S02",
+    "role": "review",
+    "title": "第一部分文献对照中的 LB-UNet 与 TinyU-Net",
+    "keywords": [
+      "EGE-UNet",
+      "轻量分割"
+    ],
+    "origin": "AT3 第一部分《轻量化皮肤病灶分割》第一页",
+    "file": "review.json"
+  },
+  {
+    "id": "S03",
+    "role": "reproduction",
+    "title": "第二部分 EGE-UNet 在 ISIC2017 的短训记录",
+    "keywords": [
+      "EGE-UNet",
+      "ISIC2017",
+      "短训",
+      "轻量分割"
+    ],
+    "origin": "第二部分实测记录，提交 561bb399265cceb003cbb2610a4e7565e8f5d11a",
+    "file": "part2-metrics.json"
+  },
+  {
+    "id": "S04",
+    "role": "background",
+    "title": "原始 U-Net 的显微图像实验",
+    "keywords": [
+      "轻量分割",
+      "显微图像"
+    ],
+    "origin": "https://arxiv.org/html/1505.04597",
+    "file": "microscopy.json"
+  }
+]

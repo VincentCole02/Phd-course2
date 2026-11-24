@@ -1,0 +1,45 @@
+{
+  "mode": "local_rule_based_fixture",
+  "fixture_id": "at3-ege-unet-source-pack-v1",
+  "fixture_origin": "Student adaptation of W11 worksheet, with AT3 parts 1 and 2",
+  "validator_origin": "Local implementation of the five gates listed in W11, section I",
+  "api_used": false,
+  "model_used": false,
+  "network_used": false,
+  "gpu_used": false,
+  "third_party_framework_used": false,
+  "environment": {
+    "python": "3.11.10",
+    "os": "Windows"
+  },
+  "run_at_utc": "2026-11-24T05:10:21+00:00",
+  "inputs_sha256": {
+    "run_agent.py": "a9191b3452d7bedc4ef351b56bade3540922c05a97f10e4db8e7dbe900c2d85b",
+    "validate.py": "738f0ace240d0c83de9523b4735da9d67182dedfd91aa1077784a0c312151748",
+    "task-contract.json": "55999ac7b649fd0efe7de00974953c1990763f7d0ac5ffce97232b695ba8c2a8",
+    "tool-schema.json": "28f6b19ff203f7ef528b5b9650453501b65433aefcac293d5a90a1ce25b762cb",
+    "source-pack/catalog.json": "d9234a06a460d83c66e326ebb020ab85dc2f5f8b53004ef5665dc1e48ff21f37",
+    "source-pack/microscopy.json": "a44be4e8733b045ffff60b9791713b356f51d98a55af8eba695edf9d420c7ea0",
+    "source-pack/origins.json": "13e9a983e57489f0c082b6c041aadfaec447cfd6aa5dafc40273e4c85cac403b",
+    "source-pack/paper.json": "0e9284caa3809dc8050bb5e759a1d621eff527ea93def265722751a5d522e68a",
+    "source-pack/part2-metrics.json": "842ce8518a4e24c58ce4ccb6bfcd9537d3835a15d52440b14d729ea61c7c8d3a",
+    "source-pack/review.json": "a44504c2b69be7ada011d1f547b6357dcf964c6678f2aa0a812f08f4b247c23f"
+  },
+  "outputs_sha256": {
+    "comparison.csv": "0979687d6c93ac4c4cd7a171785bd392cd1a49071ce06282795273c0edfd8fd4",
+    "error-note.md": "1007997dbf5674f299e883c24e17f4b6dc59ec612798ac2b0f25ea01a669cb53",
+    "evaluation.csv": "5b65b91618e5c145ff39cc17fd38e99f78380fa23bca327cdeb3d0a7631fff77",
+    "final-brief.md": "5b1d2e5d4cdbe97b35a57adbd2636e009d487dd7ee701308da77bcc68119fd3f",
+    "max_steps_3/tool-results.jsonl": "1aa8390ba304cb314232ba8d2a54183382d4226e96e6c47b371ff78e958e0c85",
+    "max_steps_3/trajectory.jsonl": "067ecb5c6504156ba55df15910eaa90fb421f7a207ea6647970f7378092d08d2",
+    "max_steps_3/validation.json": "397fad1fa084ccde81fd43a93d7763bf2b222dfb497810344019a46ad8a825dc",
+    "max_steps_6/final-brief.md": "5b1d2e5d4cdbe97b35a57adbd2636e009d487dd7ee701308da77bcc68119fd3f",
+    "max_steps_6/tool-results.jsonl": "c950f7d121bc1b927010d0df85f6059228264f76dbac61024a18004bebcd9d0f",
+    "max_steps_6/trajectory.jsonl": "a06caac93b464bdbc2f49e2a3a484075ca65ac4396445b8a8e0f3b432dd4a684",
+    "max_steps_6/validation.json": "967d9cded7222868ad848f7857c5ac71bc25d5f78c3b94033a3d2073144315e0",
+    "task-contract.json": "55999ac7b649fd0efe7de00974953c1990763f7d0ac5ffce97232b695ba8c2a8",
+    "tool-results.jsonl": "c07bba8a78d84eb85fd41b80464ebd07cf58ac9c03feb2ba9a86b0419c9e2b69",
+    "tool-schema.json": "28f6b19ff203f7ef528b5b9650453501b65433aefcac293d5a90a1ce25b762cb",
+    "trajectory.jsonl": "b74a007b11bfadf7c4fe68e06b329d6329e7e994ef46bd551143dc52a78856d5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "search_catalog": {
+    "arguments": {
+      "query": "string"
+    },
+    "result": "按关键词匹配数排序的来源 ID 和标题；不返回正文",
+    "side_effect": "无"
+  },
+  "read_source": {
+    "arguments": {
+      "source_id": "搜索返回的已登记 ID"
+    },
+    "result": "来源定位和带行号的证据",
+    "side_effect": "无；文档内容不作为工具指令"
+  },
+  "write_brief": {
+    "arguments": {
+      "title": "string",
+      "sections": "标题与正文的列表",
+      "citations": "被引用的证据行 ID 列表"
+    },
+    "result": "相对输出路径与 SHA-256",
+    "side_effect": "只在本次运行目录创建 final-brief.md"
+  }
+}

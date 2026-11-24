@@ -1,0 +1,18 @@
+{
+  "W11": {
+    "path": "L11/W11-lab-worksheet.zh-Hant.docx",
+    "sha256": "443ce0cc3e902a380ba087b1ae1a663ecb1342251421aade205f81bf592daf3b"
+  },
+  "S02": {
+    "path": "Final/大作业/01-文献综述/轻量化皮肤病灶分割-文献综述.pdf",
+    "pages": [
+      1
+    ],
+    "sha256": "7aeb0ebd4633f32c8935c7c373c70705638efbd891973b792756a9c84800fd9e"
+  },
+  "S03": {
+    "git_commit": "561bb399265cceb003cbb2610a4e7565e8f5d11a",
+    "path": "results/short-run/metrics.json",
+    "sha256": "842ce8518a4e24c58ce4ccb6bfcd9537d3835a15d52440b14d729ea61c7c8d3a"
+  }
+}

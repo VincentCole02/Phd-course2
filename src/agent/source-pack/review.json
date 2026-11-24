@@ -1,0 +1,4 @@
+{
+  "L1": "第一部分的对照表显示，LB-UNet 参数更少（0.038M），但运算量更高（0.098 GFLOPs）。TinyU-Net 使用 ISIC2018 官方划分，并分别报告病灶类 IoU 与包含背景的平均 IoU。",
+  "L2": "LB-UNet 原文表 1：https://papers.miccai.org/miccai-2024/446-Paper2135.html；TinyU-Net 原文表 1：https://papers.miccai.org/miccai-2024/774-Paper2191.html。"
+}

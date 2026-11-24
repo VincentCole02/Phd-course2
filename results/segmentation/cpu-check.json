@@ -1,0 +1,59 @@
+{
+  "dataset": "ISIC2017 Task 1",
+  "splits": {
+    "train": 1000,
+    "val": 150,
+    "test": 600
+  },
+  "upstream_commit": "f52ba30c6bf7d0ca479c2c9d4a3cbda999f49d3a",
+  "manifest_sha256": "2c706ea2e88229df41b5d3be48dba722678ee2a0d56be7a83abce3c9ef33c30d",
+  "seed": 42,
+  "size": 256,
+  "batch_size": 8,
+  "workers": 0,
+  "epochs": null,
+  "threshold": 0.5,
+  "parameters": 53374,
+  "python": "3.11.10",
+  "torch": "2.5.0",
+  "cuda": "12.1",
+  "device": "cpu",
+  "gpu": null,
+  "optimizer": "AdamW",
+  "initial_lr": 0.001,
+  "weight_decay": 0.01,
+  "schedule": "CosineAnnealingLR",
+  "min_lr": 1e-05,
+  "aux_weights": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "paper_reference": {
+    "dice": 0.8877,
+    "iou": 0.7981,
+    "seed_runs": 5,
+    "epochs": 300
+  },
+  "best_epoch": 19,
+  "validation_at_best_epoch": {
+    "dice": 0.8089365525099431,
+    "iou": 0.6791716715130713,
+    "tp": 1360986,
+    "fp": 296420,
+    "fn": 346485,
+    "tn": 7826509,
+    "images": 150
+  },
+  "test": {
+    "dice": 0.8206322480526869,
+    "iou": 0.6958238824978042,
+    "tp": 7173899,
+    "fp": 1027238,
+    "fn": 2108798,
+    "tn": 29011665,
+    "images": 600
+  }
+}

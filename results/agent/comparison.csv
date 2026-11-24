@@ -1,0 +1,3 @@
+﻿variant,max_steps,steps,sources_read,citations,validator,stop_reason
+max_steps_3,3,3,2,0,FAIL,step_budget_exhausted
+max_steps_6,6,5,3,3,PASS,brief_written

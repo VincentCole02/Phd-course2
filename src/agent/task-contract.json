@@ -1,0 +1,44 @@
+{
+  "task_id": "at3-ege-unet-offline-brief",
+  "research_question": "EGE-UNet 为何适合低算力复现？短训结果与原论文有多大差距，比较时要保留哪些条件？",
+  "query": "EGE-UNet ISIC2017 短训 轻量分割",
+  "source_pack": "source-pack",
+  "required_sources": [
+    "S01",
+    "S02",
+    "S03"
+  ],
+  "relevant_sources_to_read": 3,
+  "allowed_output": "final-brief.md",
+  "max_steps": 6,
+  "comparison": {
+    "variable": "max_steps",
+    "values": [
+      3,
+      6
+    ]
+  },
+  "success_contract": [
+    "brief_exists",
+    "three_unique_citations",
+    "citations_were_read",
+    "three_sources_read",
+    "within_step_budget"
+  ],
+  "brief": {
+    "max_chars": 1200,
+    "required_sections": [
+      "方法与成本",
+      "文献对照",
+      "短训结果",
+      "比较口径"
+    ]
+  },
+  "workbook": "W11-lab-worksheet.zh-Hant.docx，I 节；本项目按工作纸重建本地检查",
+  "grading_rubric_percent": {
+    "completion_and_validator": 30,
+    "tool_calls_observations_and_citations": 25,
+    "comparison_and_failure_analysis": 25,
+    "provenance_rerun_safety_and_clarity": 20
+  }
+}

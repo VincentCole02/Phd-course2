@@ -1,0 +1,13 @@
+﻿variant,check,result,evidence
+max_steps_3,brief_exists,FAIL,max_steps_3/final-brief.md; write_brief in tool-results.jsonl
+max_steps_3,three_unique_citations,FAIL,max_steps_3/final-brief.md
+max_steps_3,citations_were_read,FAIL,max_steps_3/read_source in tool-results.jsonl; final-brief.md
+max_steps_3,three_sources_read,FAIL,max_steps_3/read_source in tool-results.jsonl
+max_steps_3,within_step_budget,PASS,max_steps_3/trajectory.jsonl; validation.json
+max_steps_3,brief_format,FAIL,max_steps_3/final-brief.md; task-contract.json
+max_steps_6,brief_exists,PASS,max_steps_6/final-brief.md; write_brief in tool-results.jsonl
+max_steps_6,three_unique_citations,PASS,max_steps_6/final-brief.md
+max_steps_6,citations_were_read,PASS,max_steps_6/read_source in tool-results.jsonl; final-brief.md
+max_steps_6,three_sources_read,PASS,max_steps_6/read_source in tool-results.jsonl
+max_steps_6,within_step_budget,PASS,max_steps_6/trajectory.jsonl; validation.json
+max_steps_6,brief_format,PASS,max_steps_6/final-brief.md; task-contract.json
